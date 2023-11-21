@@ -51,7 +51,7 @@
     display: inline;
 }
 
-.
+
 
 
 
@@ -60,12 +60,15 @@
 
 header{
     position: fixed;
+    z-index: 1;
     width: 100%;
     height: 70px;
     background-color: orange;
     justify-content: center;
     box-shadow: 5px 5px 5px gray;
 }
+
+
 
 nav{
     width: 80%;
@@ -148,3 +151,68 @@ nav{
 .p6{
     background-image: url(/img/6.webp);
 }
+
+.like{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 2%;
+    left: 89%;
+
+
+}
+
+
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    top: 80%;
+    z-index: 0;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+
+}
+
+
+.climate-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(18, 125, 13);
+    position: relative;
+    top: 80%;
+    z-index: 0;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+}
+    
+
+
+
+/*  Footer  */
+
+footer{
+    background-color: rgb(41, 40, 40);
+    width: 100%;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer-contain{
+    width: 80%;
+}
+
+
